@@ -30,8 +30,10 @@ After generating the Xcode project, navigate to the project directory in your te
 This project consists of a main target (App) and three different modules: DataSource, RestaurantsFeature and DesignSystem.
 
 ## App Target
-This module ensures that all modules within the application communicate with each other through interfaces using the dependency library
-The project utilizes the Dependencies library developed by Pointfree. Dependencies between modules have been established through this library. For example live implementation for API calls in App -> Sources -> Client+LiveImplementation
+This module ensures that all modules within the application communicate with each other through interfaces using the dependency library.
+
+The project utilizes the Dependencies library developed by Pointfree. 
+Dependencies between modules have been established through this library. For example live implementation for API calls in App -> Sources -> Client+LiveImplementation
 
 ## DataSource
 The DataSource module includes the following components:
